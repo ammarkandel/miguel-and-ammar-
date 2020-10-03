@@ -2,76 +2,87 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Build a Technical Documentation Page</title>
+    <style>
+      #navbar {
+        display: flex;
+        padding: 0%;
+        position: fixed;
+        left: 0%;
+      }
+      @media (min-width: 700px), handheld and (orientation: landscape) {
+        body {
+          background-color: lightgreen;
+        }
+      }
+    </style>
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <div id="main-doc">
+    <main id="main-doc">
       <nav id="navbar">
-        <header>JS documentation</header>
-        <ul>
-          <li><a class="nav-link" href="#">Introduction</a></li>
-          <li><a class="nav-link" href="#">allready_know</a></li>
-          <li><a class="nav-link" href="#">javascript_and_java</a></li>
-          <li><a class="nav-link" href="#">Hello World</a></li>
-          <li><a class="nav-link" href="#">Variables</a></li>
-          <li><a class="nav-link" href="#">Arrays</a></li>
-        </ul>
+        <header>
+          JS documentation
+          <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#already_know">already know</a></li>
+            <li>
+              <a class="nav-link" href="#JavaScript_&_Java"
+                >JavaScript & Java</a
+              >
+            </li>
+            <li><a class="nav-link" href="#hello_world">hello world</a></li>
+            <li><a class="nav-link" href="#variables">variables</a></li>
+            <li><a class="nav-link" href="#arrays">arrays</a></li>
+          </ul>
+        </header>
       </nav>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur exercitationem suscipit eligendi
-        voluptates aperiam! Architecto ducimus aperiam ratione omnis vel!
-      </p>
-      <p>
-        adipisicing elit. Tempora libero totam quam delectus ullam!
-        Necessitatibus
-      </p>
-      <p>fuga voluptatum doloribus commodi,</p>
-      <p>fuga voluptatum doloribus commodi,</p>
-      <p>fuga voluptatum doloribus commodi,</p>
-      <p>fuga voluptatum doloribus commodi,</p>
-      <p>fuga voluptatum doloribus commodi,</p>
-      <p>fuga voluptatum doloribus commodi,</p>
-      <p>fuga voluptatum doloribus commodi,</p>
-      <p>fuga voluptatum doloribus commodi,</p>
-
-      <code>console.log("hello world")</code>
-      <code>console.log("hello world")</code>
-      <code>console.log("hello world")</code>
-      <code>console.log("hello world")</code>
-      <code>console.log("hello world")</code>
-      <ul>
-        <li>voluptatum doloribus commodi</li>
-        <li>voluptatum doloribus commodi</li>
-        <li>voluptatum doloribus commodi</li>
-        <li>voluptatum doloribus commodi</li>
-        <li>voluptatum doloribus commodi</li>
-      </ul>
-
-      <section class="main-section">
-        <header id="Introduction">Introduction</header>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <p>fuga voluptatum doloribus commodi,</p>
       </section>
-      <section class="main-section">
-        <header id="allready_know">What you should already know</header>
+      <section class="main-section" id="already_know">
+        <header>already know</header>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <code>console.log("hello world")</code>
+        <code>console.log("hello world")</code>
+        <code>console.log("hello world")</code>
+        <ul>
+          <li>voluptatum doloribus commodi</li>
+          <li>voluptatum doloribus commodi</li>
+          <li>voluptatum doloribus commodi</li>
+          <li>voluptatum doloribus commodi</li>
+          <li>voluptatum doloribus commodi</li>
+        </ul>
       </section>
-      <section class="main-section">
-        <header id="javascript_and_java">Javascript and java</header>
+      <section class="main-section" id="JavaScript_&_Java">
+        <header>JavaScript & Java</header>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <p>fuga voluptatum doloribus commodi,</p>
       </section>
-      <section class="main-section">
-        <header id="hello_world">Hello World</header>
+      <section class="main-section" id="hello_world">
+        <header>hello world</header>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <p>fuga voluptatum doloribus commodi,</p>
       </section>
-      <section class="main-section">
-        <header id="variables">Variables</header>
+      <section class="main-section" id="variables">
+        <header>variables</header>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <p>fuga voluptatum doloribus commodi,</p>
       </section>
-      <section class="main-section">
-        <header id="arrays">Arrays</header>
+      <section class="main-section" id="arrays">
+        <header>arrays</header>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <p>fuga voluptatum doloribus commodi,</p>
+        <code>console.log("hello world")</code>
+        <code>console.log("hello world")</code>
       </section>
-    </div>
-
-    <script src="js/index.js"></script>
+    </main>
   </body>
 </html>
